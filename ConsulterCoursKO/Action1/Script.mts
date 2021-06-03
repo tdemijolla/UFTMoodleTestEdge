@@ -13,8 +13,4 @@ wait 1
 Browser("Ecole de la Qualité Logicielle").Page("EQL: Tous les cours").Link("Préparation CV/Entretien").Click
 wait 1
 Browser("Ecole de la Qualité Logicielle").Page("EQL: Tous les cours").Link("PO : Préparation CV/Entretien").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation").WebButton("Menu utilisateur").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation").WebMenu("Stagiaire DTA").Select "Déconnexion"
-
+wait 3
