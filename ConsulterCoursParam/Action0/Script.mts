@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration, Parameter("TC_CUF_UserName")
+﻿RunAction "ActionConsulterCoursParam", oneIteration, Parameter("TC_CUF_UserName")
