@@ -14,22 +14,6 @@ Browser("Ecole de la Qualité Logicielle").Page("EQL: Tous les cours").Link("Pr�
 wait 1
 Browser("Ecole de la Qualité Logicielle").Page("EQL: Tous les cours").Link("PO : Préparation CV/Entretien").Click
 wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation").WebButton("Entrer").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame").Link("Démarrer le module").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame_2").Link("Suivant").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame_3").Link("Suivant").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame_4").Link("Suivant").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame_5").Link("Suivant").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").Frame("mainFrame_6").WebElement("Fin").Click
-wait 1
-Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation_2").WebButton("Terminer l'activité").Click
-wait 1
 Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation").WebButton("Menu utilisateur").Click
 wait 1
 Browser("Ecole de la Qualité Logicielle").Page("DTAPCE: Guide de préparation").WebMenu("Stagiaire DTA").Select "Déconnexion"
